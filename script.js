@@ -13,6 +13,7 @@ function letComputerChoice() {
 
 
 // Criar uma função para receber a escolha do jogador
-function letPlayerChoice() {
-
+function letHumanChoise() {
+    let choise = prompt("Choose between Rock, Paper or Scissors:")
+    return choise
 }
